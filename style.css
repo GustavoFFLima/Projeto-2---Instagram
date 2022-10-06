@@ -33,10 +33,26 @@ header {
     display: flex;
     justify-content: center;
 }
+.conteudoPrincipal {
+    width: 612px;
+}
 .stories {
     border: solid 1px #DBDBDB;
     border-radius: 2px;
     background: #FFFFFF;
+    display: flex;
+}
+.story img {
+    width: 66px;
+    height: 66px;
+    margin: 18px 7px 1px 7px;
+}
+.story img:nth-child(2) {
+    border-radius: 50%;
+}
+p {
+    margin: 0px;
+    text-align: center;
 }
 .posts {
     border: solid 1px #DBDBDB;
@@ -47,4 +63,10 @@ header {
     border: solid 1px #DBDBDB;
     border-radius: 2px;
     background: #FAFAFA;
+    margin-left: 28px;
+}
+.sidebarPrincipal img {
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
 }
