@@ -1,5 +1,6 @@
 body {
     background: #FAFAFA;
+    width: 1366px;
 }
 header {
     background: #FAFAFA;
@@ -7,6 +8,7 @@ header {
     justify-content: space-evenly;
     align-items: center;
     border-bottom: solid 1px #DBDBDB;
+    width: 100%;
 }
 .logo ion-icon {
     padding-right: 11px;
@@ -17,6 +19,10 @@ header {
 .icons ion-icon {
     padding-right: 11px;
     font-size: 22px;
+}
+ion-icon:hover {
+    color: #3590d2;
+    cursor: pointer;
 }
 .logo {
     display: flex;
@@ -54,10 +60,68 @@ p {
     margin: 0px;
     text-align: center;
 }
-.posts {
+.post {
+    width: 614px;
+    Height: 749px;
     border: solid 1px #DBDBDB;
     border-radius: 2px; 
     background: #FFFFFF;
+    margin: 30px 30px 30px 0;
+}
+.postHeader {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 17px;
+}
+.postHeader div {
+    display: flex;
+    align-items: center;
+}
+.postHeader div img {
+    width: 32px;
+    height: 32px;
+    margin: 18px 7px 1px 7px;
+    border-radius: 50px; 
+}
+.post img {
+    width: 100%;
+    height: 612px;
+}
+.posticons .icon {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 15px 0;    
+}
+.posticons .icon div ion-icon {
+    width: 18px;
+    margin-right: 7px;
+}
+.posticons .text {
+    display: flex;
+    margin-left: 17px;
+}
+.posticons .text img {
+    width: 20px;
+    height: 20px;
+    border-radius: 18px;
+}
+.post .comentario {
+    display: flex;
+    justify-content: space-between;
+}
+.post .comentario div {
+    margin-left: 12px;
+}
+.post .comentario div ion-icon {
+    width: 12px;
+    height: 12px;
+}
+.post .comentario input {
+    border: none;
+}
+.post .comentario p {
+    color: #3880ff;
+    margin-right: 12px;
 }
 .sadebar {
     border: solid 1px #DBDBDB;
