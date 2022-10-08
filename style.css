@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 body {
     background: #FAFAFA;
-    width: 1366px;
+    width: 100%;
 }
 header {
     background: #FAFAFA;
@@ -47,6 +48,12 @@ ion-icon:hover {
     border-radius: 2px;
     background: #FFFFFF;
     display: flex;
+    margin-top: 34px;
+}
+.story {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
 }
 .story img {
     width: 66px;
@@ -88,11 +95,12 @@ p {
     width: 32px;
     height: 32px;
     border-radius: 50px; 
+    margin: 10px;
 }
 .postHeader ion-icon {
     align-items: center;
     justify-content: center;
-    color: gold;
+    margin: 15px 5px;
 }
 .post img {
     width: 100%;
