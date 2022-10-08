@@ -53,8 +53,16 @@ ion-icon:hover {
     height: 66px;
     margin: 18px 7px 1px 7px;
 }
+.story img:nth-child(1) {
+    position: absolute;
+} 
 .story img:nth-child(2) {
     border-radius: 50%;
+    position: relative;
+    width: 58px;
+    height: 58px;
+    top: 4px;
+    left: 4px;
 }
 p {
     margin: 0px;
@@ -71,7 +79,6 @@ p {
 .postHeader {
     display: flex;
     justify-content: space-between;
-    margin: 15px 17px;
 }
 .postHeader div {
     display: flex;
@@ -80,8 +87,12 @@ p {
 .postHeader div img {
     width: 32px;
     height: 32px;
-    margin: 18px 7px 1px 7px;
     border-radius: 50px; 
+}
+.postHeader ion-icon {
+    align-items: center;
+    justify-content: center;
+    color: gold;
 }
 .post img {
     width: 100%;
@@ -146,4 +157,8 @@ p {
     width: 32px;
     height: 32px;
     border-radius: 16px;
+}
+.indice {
+    display: flex;
+    justify-content: space-between;
 }
