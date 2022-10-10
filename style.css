@@ -168,7 +168,6 @@ span {
 }
 .sadebar {
     width: 300px;
-    border: solid 1px #DBDBDB;
     border-radius: 2px;
     background: #FAFAFA;
     margin-left: 28px;
@@ -185,14 +184,60 @@ span {
     margin-right: 17px;
 }
 .sidebarPrincipal div p:last-child {
-    color: #3590d2;
+    color: #C4C4C4;
+}
+.indicie div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+.indicie div p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+.indicie div p:nth-child(1) {
+    color: #8E8E8E;
+    ;
 }
 .sadebar .listaSugestao div img {
     width: 32px;
     height: 32px;
     border-radius: 16px;
 }
-.indicie div{
+.sugestoes {
     display: flex;
     justify-content: space-between;
+    margin-top: 18px;
+}
+.sugestoes-contas {
+    display: flex;
+}
+.sugestoes-contas div img {
+    margin-right: 11px;
+}
+.sugestoes-contas div h5 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+.sugestoes-contas div p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #C7C7C7;
+}
+.seguir {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #139EF2;
+}
+.sobre {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: #C7C7C7;
+    margin-top: 33px;
 }
