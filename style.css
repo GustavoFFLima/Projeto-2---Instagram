@@ -167,10 +167,11 @@ span {
     margin-right: 12px;
 }
 .sadebar {
-    width: 300px;
+    width: 293px;
     border-radius: 2px;
     background: #FAFAFA;
     margin-left: 28px;
+    visibility: visible;
 }
 .sidebarPrincipal {
     display: flex;
@@ -240,4 +241,39 @@ span {
     font-size: 11px;
     color: #C7C7C7;
     margin-top: 33px;
+}
+.barraInferior {
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 34px;
+    width: 100%;
+    border: solid 1px #DBDBDB;
+    visibility: hidden;
+}
+.barraInferior ion-icon {
+    width: 16px;
+    height: 16px;
+    margin: 10px 20px;
+}
+
+@media (max-width: 935px) {
+    .sidebar {
+        visibility: hidden;
+    }
+}
+
+@media (max-widht: 614px) {
+    .post {
+        width: 100%;
+    }
+    .stories ion-icon {
+        visibility: hidden;
+    }
+    .barraInferior {
+        visibility: visible;
+    }
 }
