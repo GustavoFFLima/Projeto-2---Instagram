@@ -171,7 +171,6 @@ span {
     border-radius: 2px;
     background: #FAFAFA;
     margin-left: 28px;
-    visibility: visible;
 }
 .sidebarPrincipal {
     display: flex;
@@ -243,7 +242,7 @@ span {
     margin-top: 33px;
 }
 .barraInferior {
-    display: flex;
+    display: none;
     justify-content: space-between;
     background: #FFFFFF;
     position: fixed;
@@ -252,7 +251,6 @@ span {
     height: 34px;
     width: 100%;
     border: solid 1px #DBDBDB;
-    visibility: hidden;
 }
 .barraInferior ion-icon {
     width: 16px;
@@ -261,19 +259,31 @@ span {
 }
 
 @media (max-width: 935px) {
-    .sidebar {
-        visibility: hidden;
+    .sadebar {
+        display: none;
     }
 }
-
-@media (max-widht: 614px) {
+@media (max-width: 614px) {
+    header {
+        justify-content: center;
+    }
+    .logo img{
+        margin-right: 20px;
+    }
+    .logo ion-icon {
+        border-right:none;
+    }
     .post {
         width: 100%;
     }
-    .stories ion-icon {
-        visibility: hidden;
+    .stories ion-icon, .pesquisa {
+        display: none;
+    }
+    .icons ion-icon:nth-child(2), .icons ion-icon:nth-child(3), .icons ion-icon:nth-child(4) {
+        display: none;
+        flex-direction: row-reverse;
     }
     .barraInferior {
-        visibility: visible;
+        display: flex;
     }
 }
