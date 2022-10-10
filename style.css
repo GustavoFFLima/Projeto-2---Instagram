@@ -10,6 +10,9 @@ header {
     align-items: center;
     border-bottom: solid 1px #DBDBDB;
     width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
 .logo ion-icon {
     padding-right: 11px;
@@ -39,6 +42,7 @@ ion-icon:hover {
 .conteudo {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
 }
 .conteudoPrincipal {
     width: 612px;
@@ -51,6 +55,14 @@ ion-icon:hover {
     overflow: hidden;
     margin-top: 34px;
     width: 612px;
+    position: relative;
+}
+.stories ion-icon {
+    position: absolute;
+    right: 0;
+    top: 40%;
+    color: #dbdbdb;
+    font-size: 25px;
 }
 .story {
     font-family: 'Roboto', sans-serif;
@@ -58,23 +70,22 @@ ion-icon:hover {
     font-size: 12px;
     padding: 0px 9px;
     text-align: center;
+    position: relative;
+    padding: 0px 7px;
 }
 .story img {
-    width: 66px;
-    height: 66px;
-    margin: 9px 0px;
+    width: 68px;
+    height: 68px;
 }
-.storyRelative {
-    position: relative;
-}
-.story div{
+.story div {
     position: absolute;
-    top: 90px;
+    top: 6px;
+    right: 13px;
 }
 .story div img {
     border-radius: 50%;
-    width: 58px;
-    height: 58px;
+    width: 56px;
+    height: 56px;
 }
 p {
     margin: 0px;
@@ -131,8 +142,11 @@ p {
 }
 .posticons .text {
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 14px;
+}
+span {
+    font-weight: 500;
 }
 .post .comentario {
     display: flex;
@@ -162,21 +176,23 @@ p {
 .sidebarPrincipal {
     display: flex;
     align-items: center;
+    margin-top: 50px;
 }
 .sidebarPrincipal img {
     width: 56px;
     height: 56px;
     border-radius: 28px;
+    margin-right: 17px;
 }
-.sadebar .indice {
-    display: flex;
-    align-items: center;}
+.sidebarPrincipal div p:last-child {
+    color: #3590d2;
+}
 .sadebar .listaSugestao div img {
     width: 32px;
     height: 32px;
     border-radius: 16px;
 }
-.indice {
+.indicie div{
     display: flex;
     justify-content: space-between;
 }
