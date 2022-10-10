@@ -48,28 +48,33 @@ ion-icon:hover {
     border-radius: 2px;
     background: #FFFFFF;
     display: flex;
+    overflow: hidden;
     margin-top: 34px;
+    width: 612px;
 }
 .story {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 12px;
+    padding: 0px 9px;
+    text-align: center;
 }
 .story img {
     width: 66px;
     height: 66px;
-    margin: 18px 7px 1px 7px;
+    margin: 9px 0px;
 }
-.story img:nth-child(1) {
-    position: absolute;
-} 
-.story img:nth-child(2) {
-    border-radius: 50%;
+.storyRelative {
     position: relative;
+}
+.story div{
+    position: absolute;
+    top: 90px;
+}
+.story div img {
+    border-radius: 50%;
     width: 58px;
     height: 58px;
-    top: 4px;
-    left: 4px;
 }
 p {
     margin: 0px;
@@ -123,6 +128,11 @@ p {
     width: 20px;
     height: 20px;
     border-radius: 18px;
+}
+.posticons .text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
 }
 .post .comentario {
     display: flex;
